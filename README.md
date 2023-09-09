@@ -22,37 +22,56 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-
+```
+create table student101(roll_no int,name varchar(30),age int,address varchar(50),phone_no int);
+```
 
 ### OUTPUT:
+![dbmstable1](https://github.com/ASHWINKUMAR2903/I2_DBMS/assets/119407186/bd4cc76c-ac53-416e-8667-2e589f5bb8a7)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
+```
+alter table student101 add department varchar(30);
+```
 
 ### OUTPUT:
+![dbmstable2](https://github.com/ASHWINKUMAR2903/I2_DBMS/assets/119407186/d57586fd-3cec-4f02-b6e0-b8d9ac24a10f)
 
 
-### 3) Drop the student table
- 
+### 3) Rename the student table to mystudent
+
 ### SQL QUERY: 
-
-
+```
+ alter table student101 rename to student202;
+```
 ### OUTPUT:
+![dbmstable3](https://github.com/ASHWINKUMAR2903/I2_DBMS/assets/119407186/9a9de3d3-3093-417d-acf3-f20b572531b7)
+
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
-
+```
+truncate table student202;
+```
 ### OUTPUT:
+![dbmstable4](https://github.com/ASHWINKUMAR2903/I2_DBMS/assets/119407186/d0a19bfe-8951-481b-92b3-08b132f60f68)
 
 
 
-### 5) Rename the student table to mystudent
-
+### 5) Drop the student table
+ 
 ### SQL QUERY: 
-
-
+```
+drop table student202;
+```
 ### OUTPUT:
+![dbmstable5](https://github.com/ASHWINKUMAR2903/I2_DBMS/assets/119407186/4f4e6a54-2b84-46b2-aa04-b02fe25a1c19)
+
+## RESULT:
+the SQL Command is executed successfully. 
+
